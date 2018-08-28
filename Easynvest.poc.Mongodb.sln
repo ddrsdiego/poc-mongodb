@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publisher", "Publisher", "{59AD6525-6DFC-4C0D-ACE2-98A6CCAEB65B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{2A150029-FBE5-4AFC-BE26-D34B37D60F9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easynvest.poc.Mongodb.Publisher", "Publisher\Easynvest.poc.Mongodb.Publisher\Easynvest.poc.Mongodb.Publisher.csproj", "{AD0AEC20-2DD2-4CDE-8EC5-96AC42A33419}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easynvest.poc.Mongodb.Consumer", "Consumer\Easynvest.poc.Mongodb.Consumer\Easynvest.poc.Mongodb.Consumer.csproj", "{95E0BED9-85B1-4897-A2B8-9BD0FA8DDE85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easynvest.poc.Mongodb.Consumer.Command", "Consumer\Easynvest.poc.Mongodb.Consumer.Command\Easynvest.poc.Mongodb.Consumer.Command.csproj", "{51D6DFC3-40B9-4BB8-A4EE-B3D90C7F1919}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{F2B5AB82-3681-4D27-AE2C-48FD957895AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easynvest.poc.Mongodb.Common", "Common\Easynvest.poc.Mongodb.Common\Easynvest.poc.Mongodb.Common.csproj", "{06258275-1EB2-4AC4-AB51-4FF9CFE6F2F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{475F60A2-5635-498D-9FE7-777399F3A3DF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD0AEC20-2DD2-4CDE-8EC5-96AC42A33419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0AEC20-2DD2-4CDE-8EC5-96AC42A33419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0AEC20-2DD2-4CDE-8EC5-96AC42A33419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0AEC20-2DD2-4CDE-8EC5-96AC42A33419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E0BED9-85B1-4897-A2B8-9BD0FA8DDE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E0BED9-85B1-4897-A2B8-9BD0FA8DDE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E0BED9-85B1-4897-A2B8-9BD0FA8DDE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E0BED9-85B1-4897-A2B8-9BD0FA8DDE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D6DFC3-40B9-4BB8-A4EE-B3D90C7F1919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D6DFC3-40B9-4BB8-A4EE-B3D90C7F1919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D6DFC3-40B9-4BB8-A4EE-B3D90C7F1919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D6DFC3-40B9-4BB8-A4EE-B3D90C7F1919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06258275-1EB2-4AC4-AB51-4FF9CFE6F2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06258275-1EB2-4AC4-AB51-4FF9CFE6F2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06258275-1EB2-4AC4-AB51-4FF9CFE6F2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06258275-1EB2-4AC4-AB51-4FF9CFE6F2F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD0AEC20-2DD2-4CDE-8EC5-96AC42A33419} = {59AD6525-6DFC-4C0D-ACE2-98A6CCAEB65B}
+		{95E0BED9-85B1-4897-A2B8-9BD0FA8DDE85} = {2A150029-FBE5-4AFC-BE26-D34B37D60F9D}
+		{51D6DFC3-40B9-4BB8-A4EE-B3D90C7F1919} = {2A150029-FBE5-4AFC-BE26-D34B37D60F9D}
+		{06258275-1EB2-4AC4-AB51-4FF9CFE6F2F8} = {F2B5AB82-3681-4D27-AE2C-48FD957895AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D0A4C66-DAF3-423D-9A0B-674D4975F770}
+	EndGlobalSection
+EndGlobal
